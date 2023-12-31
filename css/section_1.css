@@ -1,0 +1,374 @@
+.section_1 {
+  margin-top: 18%;
+  width: 100%;
+  height: 900px;
+  background: #e2d3ce;
+  box-sizing: border-box;
+  /* border: 1px solid; */
+  h2 {
+    margin-top: 10%;
+    width: 589px;
+    color: #0c0b10;
+    text-align: center;
+    font-family: Forum;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    z-index: 99;
+  }
+  .gr_380 {
+    position: absolute;
+    top: 145%;
+    left: 44.5%;
+    z-index: 99;
+  }
+}
+
+.slider {
+  top: 5%;
+  width: 100%;
+  height: 540px;
+  position: relative;
+  margin: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* border: 1px solid red; */
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider .slide {
+  display: flex;
+  position: absolute;
+  left: 0;
+  /* transition: 0.1s left ease-in-out; */
+  column-gap: 10px;
+}
+
+#item_1 {
+    margin-left: 10px;
+  display: flex;
+  width: 400px;
+  height: 530px;
+  background-image: url(../images/Makkah.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px -25px 240px 82px rgba(0, 0, 0, 0.45) inset,
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+#item_2 {
+  display: flex;
+  width: 400px;
+  height: 530px;
+  background-image: url(../images/Dubai..jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px -25px 255px 255px rgba(0, 0, 0, 0.45) inset,
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+#item_3 {
+  display: flex;
+  width: 400px;
+  height: 530px;
+  background-image: url(../images/Istanbul.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px -25px 255px 255px rgba(0, 0, 0, 0.45) inset,
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+#item_4 {
+  display: flex;
+  width: 400px;
+  height: 530px;
+  background-image: url(../images/thailand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px -25px 255px 255px rgba(0, 0, 0, 0.45) inset,
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+#item_5 {
+  display: flex;
+  width: 400px;
+  height: 530px;
+  background-image: url(../images/srilanka.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px -25px 255px 255px rgba(0, 0, 0, 0.45) inset,
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+#item_6 {
+  display: flex;
+  width: 400px;
+  height: 530px;
+  background-image: url(../images/chexia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px -25px 255px 255px rgba(0, 0, 0, 0.45) inset,
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+#item_7 {
+  display: flex;
+  width: 400px;
+  height: 530px;
+  background-image: url(../images/moldiv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px -25px 255px 255px rgba(0, 0, 0, 0.45) inset,
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+#item_8 {
+  display: flex;
+  width: 400px;
+  height: 530px;
+  background-image: url(../images/egypt1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px -25px 255px 255px rgba(0, 0, 0, 0.45) inset,
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+.Makkah {
+  display: flex;
+  margin-top: 93%;
+  margin-left: 10%;
+  column-gap: 10px;
+  p {
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+}
+
+.vektor {
+  display: flex;
+  width: 15px;
+  height: 19px;
+}
+
+.slider .item {
+  width: 400px;
+  height: 530px;
+  margin-right: 10px;
+  .mak_fr {
+    margin-top: 100%;
+    margin-left: -32%;
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .mak_scene {
+    margin-top: 108%;
+    margin-left: -16%;
+    color: #ffffff;
+    font-family: Forum;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.5%;
+  }
+}
+
+.slider .item:last-child {
+  margin-right: 0;
+}
+
+.ctrl {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.ctrl-btn {
+  padding: 15px 20px;
+  top: 40%;
+  min-width: 50px;
+  background: #fff;
+  border-radius: 50%;
+  border: none;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+}
+.icon {
+  width: 30px;
+}
+
+.ctrl-btn.pro-prev {
+  left: 0;
+}
+
+.ctrl-btn.pro-next {
+  right: 0;
+}
+
+.abu_dhabi {
+  margin-top: 88%;
+  margin-left: -20%;
+  color: #fff;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 98.5%;
+}
+.dub_fr {
+  margin-top: 100%;
+  margin-left: -15%;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.dub_price {
+  margin-top: 108%;
+  margin-left: -16%;
+  color: #ffffff;
+  font-family: Forum;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 98.5%;
+}
+
+.istanbul {
+  margin-top: 88%;
+  margin-left: -23%;
+  color: #fff;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 98.5%;
+}
+.tur_fr {
+  margin-top: 100%;
+  margin-left: -17%;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.tur_price {
+  margin-top: 108%;
+  margin-left: -16%;
+  color: #ffffff;
+  font-family: Forum;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 98.5%;
+}
+
+.th_fr {
+  margin-top: 100%;
+  margin-left: -22%;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.th_price {
+  margin-top: 108%;
+  margin-left: -16%;
+  color: #ffffff;
+  font-family: Forum;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 98.5%;
+}
+
+.chex_fr {
+  margin-top: 100%;
+  margin-left: -16%;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.chex_price {
+  margin-top: 108%;
+  margin-left: -16%;
+  color: #ffffff;
+  font-family: Forum;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 98.5%;
+}
+
+.mold_fr {
+  margin-top: 100%;
+  margin-left: -23%;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.mold_price {
+  margin-top: 108%;
+  margin-left: -16%;
+  color: #ffffff;
+  font-family: Forum;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 98.5%;
+}
+
+.eg_fr {
+  margin-top: 100%;
+  margin-left: -15%;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.eg_price {
+  margin-top: 108%;
+  margin-left: -16%;
+  color: #ffffff;
+  font-family: Forum;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 98.5%;
+}

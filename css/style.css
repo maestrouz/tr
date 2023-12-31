@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Manrope:wght@500&family=Open+Sans&display=swap");
+
+@import url("./section_1.css");
+@import url("./section_2.css");
+@import url("./section_3.css");
+@import url("./footer.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1920px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../images/header\ bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  /* margin-top: 3%; */
+  width: 100%;
+  height: 10%;
+}
+
+.nav_logo {
+  width: 15%;
+  height: 100%;
+}
+.nav_logo img {
+  margin-top: -10%;
+  margin-left: 15%;
+  width: 130px;
+  height: 120px;
+}
+
+.nav_list {
+  display: flex;
+  width: 85%;
+  height: 100%;
+}
+.nav_list ul {
+  margin-top: 2%;
+  margin-left: 10%;
+  display: flex;
+  list-style: none;
+  column-gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.nav_list li {
+  font-family: "Forum", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  a {
+    background-image: linear-gradient(to right, #000000, #000000 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  a:before {
+    content: "";
+    background: #000000;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  a:hover {
+    font-weight: 700;
+    background-position: 0;
+  }
+
+  a:hover::before {
+    width: 100%;
+  }
+}
+
+.subtract {
+  margin-top: 2%;
+  margin-left: 8%;
+  width: 156px;
+  height: 40px;
+  background-image: url(../images/for_btn.png);
+}
+
+.btn_top {
+  position: absolute;
+  margin-left: 4.9%;
+  margin-top: -0.5%;
+  width: 22px;
+  height: 9.174px;
+}
+.btn_bottom {
+  position: absolute;
+  margin-top: 2.8%;
+  margin-left: -6.6%;
+}
+.header_btn {
+  width: 100%;
+  height: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-family: "Forum", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+}
+
+.bg {
+  position: absolute;
+  margin-top: 5%;
+  width: 100%;
+  height: 687px;
+  background-image: url(../images/1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+
+h1.main,
+p.demos {
+  -webkit-animation-delay: 18s;
+  -moz-animation-delay: 18s;
+  -ms-animation-delay: 18s;
+  animation-delay: 18s;
+}
+.sp-container {
+  margin-top: -2%;
+  width: 10%;
+  height: 20%;
+  z-index: 0;
+}
+.sp-content {
+  margin-left: 35%;
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  left: 0px;
+  z-index: 1000;
+}
+.sp-container h2 {
+  position: absolute;
+  line-height: 100px;
+  height: 40px;
+  margin-top: -50px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  color: transparent;
+  -webkit-animation: blurFadeInOut 3s ease-in backwards;
+  -moz-animation: blurFadeInOut 3s ease-in backwards;
+  -ms-animation: blurFadeInOut 3s ease-in backwards;
+  animation: blurFadeInOut 3s ease-in backwards;
+}
+.sp-container h2.frame-1 {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.sp-container h2.frame-2 {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.sp-container h2.frame-3 {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+.sp-globe {
+  position: absolute;
+  width: 10%;
+  height: 80px;
+  background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png)
+    no-repeat top left;
+  -webkit-animation: fadeInBack 3.6s linear 14s backwards;
+  -moz-animation: fadeInBack 3.6s linear 14s backwards;
+  -ms-animation: fadeInBack 3.6s linear 14s backwards;
+  animation: fadeInBack 3.6s linear 14s backwards;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  opacity: 0.3;
+  -webkit-transform: scale(5);
+  -moz-transform: scale(5);
+  -o-transform: scale(5);
+  -ms-transform: scale(5);
+  transform: scale(5);
+}
+@-webkit-keyframes blurFadeInOut {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    -webkit-transform: scale(1.3);
+  }
+  20%,
+  75% {
+    opacity: 1;
+    text-shadow: 0px 0px 1px #fff;
+    -webkit-transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    text-shadow: 0px 0px 50px #fff;
+    -webkit-transform: scale(0);
+  }
+}
+@-webkit-keyframes blurFadeIn {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    -webkit-transform: scale(1.3);
+  }
+  50% {
+    opacity: 0.5;
+    text-shadow: 0px 0px 10px #fff;
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0px 0px 1px #fff;
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes fadeInBack {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+  }
+  50% {
+    opacity: 0.4;
+    -webkit-transform: scale(2);
+  }
+  100% {
+    opacity: 0.2;
+    -webkit-transform: scale(5);
+  }
+}
+@-webkit-keyframes fadeInRotate {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0) rotate(360deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1) rotate(0deg);
+  }
+}
+
+@-moz-keyframes blurFadeInOut {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    -moz-transform: scale(1.3);
+  }
+  20%,
+  75% {
+    opacity: 1;
+    text-shadow: 0px 0px 1px #fff;
+    -moz-transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    text-shadow: 0px 0px 50px #fff;
+    -moz-transform: scale(0);
+  }
+}
+@-moz-keyframes blurFadeIn {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    -moz-transform: scale(1.3);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0px 0px 1px #fff;
+    -moz-transform: scale(1);
+  }
+}
+@-moz-keyframes fadeInBack {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(0);
+  }
+  50% {
+    opacity: 0.4;
+    -moz-transform: scale(2);
+  }
+  100% {
+    opacity: 0.2;
+    -moz-transform: scale(5);
+  }
+}
+@-moz-keyframes fadeInRotate {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(0) rotate(360deg);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes blurFadeInOut {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    transform: scale(1.3);
+  }
+  20%,
+  75% {
+    opacity: 1;
+    text-shadow: 0px 0px 1px #fff;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    text-shadow: 0px 0px 50px #fff;
+    transform: scale(0);
+  }
+}
+@keyframes blurFadeIn {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    transform: scale(1.3);
+  }
+  50% {
+    opacity: 0.5;
+    text-shadow: 0px 0px 10px #fff;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0px 0px 1px #fff;
+    transform: scale(1);
+  }
+}
+@keyframes fadeInBack {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(2);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scale(5);
+  }
+}
+@keyframes fadeInRotate {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(360deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+h2 {
+  padding-top: -20%;
+  margin: 0 auto;
+  width: 10%;
+  color: #0c0b10;
+  text-align: center;
+  font-family: "Forum", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 7.5px;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-top: -8%;
+  color: #fcfcfc;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 215.951px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72.94%;
+  letter-spacing: 8.918px;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+h1 {
+  padding-top: 2%;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -205deg,
+    #fff 0%,
+    #ffffff 29%,
+    #466377 67%,
+    #01383e 100%
+  );
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.bg2 {
+  margin-top: 33%;
+  position: relative;
+  width: 100%;
+  height: 612px;
+  background-image: url(../images/header_bg2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10;
+}
+.bg2 h1 {
+  padding-top: 6%;
+  color: #fcfcfc;
+  text-align: center;
+  font-family: "Forum", serif;
+  font-size: 155.614px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 5.665px;
+  text-transform: uppercase;
+}
+.bg3 {
+  position: relative;
+  margin-top: -34%;
+  width: 100%;
+  height: 419px;
+  background-image: url(../images/bg2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 20;
+}
+
+.find {
+  display: flex;
+  position: absolute;
+  margin-top: -15%;
+  margin-left: 10%;
+  width: 85%;
+  height: 20%;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 18px 38px 0px rgba(0, 0, 0, 0.11);
+  z-index: 100;
+}
+.destination {
+  margin-top: 3%;
+  margin-left: 5%;
+  h4 {
+    color: #79655e;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    span {
+      margin-right: 5%;
+    }
+  }
+  p {
+    color: #0c0b10;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.travel {
+  margin-top: 3%;
+  margin-left: 7%;
+  h4 {
+    color: #79655e;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    span {
+      margin-right: 5%;
+    }
+  }
+  p {
+    color: #0c0b10;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.calendar {
+  margin-top: 3%;
+  margin-left: 7%;
+  h4 {
+    color: #79655e;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    span {
+      margin-right: 5%;
+    }
+  }
+  #birthday {
+    height: 30%;
+    font-size: 16px;
+    outline: none;
+  }
+}
+
+.traveller {
+  margin-top: 3%;
+  margin-left: 7%;
+  h4 {
+    color: #79655e;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  #number {
+    text-align: center;
+    width: 60%;
+    height: 30%;
+    outline: none;
+    font-size: 16px;
+  }
+}
+.find_btn {
+  margin-top: 2%;
+  width: 13%;
+  height: 60%;
+  border-radius: 121px;
+  background: #0c0b10;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Forum;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.journey {
+  position: absolute;
+  top: 121%;
+  left: 40%;
+  padding-top: 1%;
+  width: 25%;
+  height: 10%;
+  border-radius: 67px;
+  background: #ffffff;
+  z-index: 156;
+  h3 {
+    color: #79655e;
+    text-align: center;
+    font-family: Forum;
+    font-size: 25.757px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.03px;
+    text-transform: uppercase;
+  }
+}
+.header_cloud1 {
+  position: relative;
+  top: -45%;
+  left: 45%;
+  z-index: 25;
+}
+.header_cloud2 {
+  position: relative;
+  top: -86.8%;
+  left: 34%;
+  z-index: 26;
+}
+.header_cloud3 {
+  position: relative;
+  top: -119.5%;
+  left: 14%;
+  z-index: 27;
+}
+.header_cloud4 {
+  position: relative;
+  top: -155.5%;
+  left: -5%;
+  z-index: 27;
+}
